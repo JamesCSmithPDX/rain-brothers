@@ -27,7 +27,7 @@ var fireworks = (function() {
     y = e.clientY || e.touches[0].clientY;
   }
 
-  var colors = ['#E03A3E', '#BAC3C9', '#061922', '#E03A3E'];
+  var colors = ['#FFFFFF', '#BAC3C9', '#000000', '#E03A3E'];
 
   var createCircle = function(x,y) {
     var p = {};
